@@ -14,10 +14,13 @@
 
 <body style="min-width: 375px;">
 
+
     <nav class="navbar navbar-expand-lg bg-warning-subtle text-emphasis-warning">
 
         <div class="container-fluid">  
-          <a class="navbar-brand" href="">ArtKid</a>
+          <a class="navbar-brand" href="">
+            <img src="/img/artkidlogo.svg" alt="Logo" width="60" height="48" class="d-inline-block align-text-top">
+          </a>
 
           <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarText" aria-controls="navbarText" aria-expanded="false" aria-label="Toggle navigation">
             <span class="navbar-toggler-icon"></span>
@@ -35,6 +38,7 @@
                 <a class="nav-link" href="#">Parceiros</a>
               </li>
             </ul>
+
             <div>
               <i class="fa-solid fa-cart-minus"></i> <!-- fonte icone: https://fontawesome.com/icons/cart-minus?s=solid&f=classic-->
             </div>
@@ -55,10 +59,10 @@
 
                     
                     
-                    <form class="d-flex" role="search">
+                        <form class="d-flex" role="search">
                         <input class="form-control me-2" type="search" placeholder="Pesquisa" aria-label="Search">
                         <button class="btn btn-outline-success" type="submit"><strong>Pesquisar</strong></button>
-                    </form>
+                        </form>
                     </div>
                 </nav>
 
@@ -67,7 +71,11 @@
         </div>
     </nav>
 
-    <h1 style="text-align:center; font-family: 'Indie Flower', cursive; padding: 20px; background-color: rgb(231, 218, 176);"> Bem-vindo(a) ao ArtKid!</h1>
+    <div class="container-fluid">
+        <h1 style="text-align:center; font-family: 'Indie Flower', cursive; padding: 20px; background-color: rgb(231, 218, 176);"> Bem-vindo(a) ao ArtKid!</h1>
+
+    </div>
+
     
     <div>
         <div id="carouselExampleAutoplaying" class="carousel slide" data-bs-ride="carousel">
@@ -96,7 +104,7 @@
                 <span class="carousel-control-next-icon" aria-hidden="true"></span>
                 <span class="visually-hidden">Próximo</span>
                 </button>
-            </div>
+        </div>
 
     </div>
   
@@ -108,7 +116,13 @@
 
         </div>
 
-        <div class="row">
+    </div>
+
+
+
+
+        <!--
+        <div style="margin:auto; padding: 10px;"class="row">
             <div class="col-md-3">
                 <div class="card text-center" style="width: 15rem;">
 
@@ -163,11 +177,7 @@
         </div>
         
         
-    </div>
-
-    <div style="margin:auto; padding: 10px;" class="container-md-5">
-
-        <div class="row">
+        <div style="margin:auto; padding: 10px;" class="row">
             <div class="col-md-3">
                 <div class="card text-center" style="width: 15rem;">
 
@@ -202,28 +212,33 @@
                             <p class="card-text">Descrição</p>
                             <a href="#" class="btn btn-primary">Acessar</a>
                         </div>
-                    </div>
-            
-                </div>
-    
-                <div class="col-md-3">
-                    <div class="card text-center" style="width: 15rem;">
-                        <img src="https://source.unsplash.com/random" class="card-img-top" alt="card img" width="50" height="200">
-    
-                        <div class="card-body">
-                            <h5 class="card-title">Brinquedo 8
-                            </h5>
-                            <p class="card-text"> Descrição</p>
-                            <a href="#" class="btn btn-primary">Acessar</a>
-                        </div>
-    
-                    </div>
                 </div>
 
+            </div>
+
+    
+            <div class="col-md-3">
+                <div class="card text-center" style="width: 15rem;">
+                    <img src="https://source.unsplash.com/random" class="card-img-top" alt="card img" width="50" height="200">
+
+                    <div class="card-body">
+                        <h5 class="card-title">Brinquedo 8
+                        </h5>
+                        <p class="card-text"> Descrição</p>
+                        <a href="#" class="btn btn-primary">Acessar</a>
+                    </div>
+
+                </div>
+            </div>
+            
+        
+        
         </div>
-        
-        
-    </div>
+
+
+        -->
+
+
 
 
     <footer class="mt-5">
