@@ -5,24 +5,24 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Aula 11 - Loja Virtual</title>
-    <link rel="stylesheet" href="/estilo.css">
+    <link rel="stylesheet" href="/aulas/estilo11.css">
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-GLhlTQ8iRABdZLl6O3oVMWSktQOp6b7In1Zl3/Jr59b6EGGoI1aFkw7cmDA6j6gD" crossorigin="anonymous">
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js" integrity="sha384-w76AqPfDkMBDXo30jS1Sgez6pr3x5MlQ1ZAGC+nuZB+EYdgRZgiwxhTBTkF7CXvN" crossorigin="anonymous"></script>
-    <!--
-      <link rel="stylesheet" href="./estiloartkid.css"/>
-      <link rel="preconnect" href="https://fonts.googleapis.com">
-      <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-      <link href="https://fonts.googleapis.com/css2?family=Indie+Flower&display=swap" rel="stylesheet">
-    -->
+    <script src="https://code.iconify.design/iconify-icon/1.0.2/iconify-icon.min.js"></script>
+    
 </head>
 
-<body>
+<body style="min-width: 375px;">
+
     <nav class="navbar navbar-expand-lg bg-warning-subtle text-emphasis-warning">
-        <div class="container-fluid">
-          <a class="navbar-brand" href="#">ArtKid</a>
+
+        <div class="container-fluid">  
+          <a class="navbar-brand" href="">ArtKid</a>
+
           <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarText" aria-controls="navbarText" aria-expanded="false" aria-label="Toggle navigation">
             <span class="navbar-toggler-icon"></span>
           </button>
+
           <div class="collapse navbar-collapse" id="navbarText">
             <ul class="navbar-nav me-auto mb-2 mb-lg-0">
               <li class="nav-item">
@@ -39,16 +39,31 @@
               <i class="fa-solid fa-cart-minus"></i> <!-- fonte icone: https://fontawesome.com/icons/cart-minus?s=solid&f=classic-->
             </div>
 
-            <nav class="navbar bg-warning-subtle text-emphasis-warning">
-                <div class="container-fluid">
-                  <form class="d-flex" role="search">
-                    <input class="form-control me-2" type="search" placeholder="Pesquisa" aria-label="Search">
-                    <button class="btn btn-outline-success" type="submit"><strong>Pesquisar</strong></button>
-                  </form>
-                </div>
-            </nav>
 
-          </div>
+            <section>
+                
+                <nav class="navbar bg-warning-subtle text-emphasis-warning">
+                    <div class="container-fluid">
+
+                        <button class="btn " type="button">
+                            <iconify-icon
+                            icon="bx:store-alt"
+                            style="color: #131212; font-size: 35px; padding: 4px; align-content: center;"
+                            href="https://source.unsplash.com/random">  </iconify-icon>
+
+                        </button>
+
+                    
+                    
+                    <form class="d-flex" role="search">
+                        <input class="form-control me-2" type="search" placeholder="Pesquisa" aria-label="Search">
+                        <button class="btn btn-outline-success" type="submit"><strong>Pesquisar</strong></button>
+                    </form>
+                    </div>
+                </nav>
+
+            </section>
+        
         </div>
     </nav>
 
@@ -56,16 +71,25 @@
     
     <div>
         <div id="carouselExampleAutoplaying" class="carousel slide" data-bs-ride="carousel">
-                <div class="carousel-inner">
-                <div class="carousel-item active">
-                    <img src="/img/park-troopers-RAtKWVlfdf4-unsplash.jpg" class="d-block w-100" alt="...">
-                </div>
-                <div class="carousel-item">
-                    <img src="/img/vanessa-bucceri-gDiRwIYAMA8-unsplash.jpg" class="d-block w-100" alt="...">
-                </div>
-                <div class="carousel-item">
-                    <img src="/img/vanessa-bucceri-X1gTLgWMDKg-unsplash.jpg" class="d-block w-100" alt="...">
-                </div>
+                <div class="carousel-inner" >
+
+                    <div class="carousel-item active">
+                        <!--referencia de imagem para banner:https://unsplash.com/pt-br/fotografias/pYv65Fd4JW0 -->
+                        <img src="https://images.unsplash.com/photo-1555448049-67b919120e75?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1470&q=80" class="d-block w-100" alt="...">
+                    </div>
+
+                    <div class="carousel-item">
+                        <img src="https://images.unsplash.com/photo-1555448049-8affc0fd79f3?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1470&q=80" class="d-block w-100" alt="...">
+                    </div>
+
+                    <div class="carousel-item">
+                        <img src="https://images.unsplash.com/photo-1545558014-8692077e9b5c?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1470&q=80" class="d-block w-100" alt="...">
+                    </div>
+                    <!-- referencias -->
+                    <div class="carousel-item">
+                        <img src="https://images.unsplash.com/photo-1555448049-f8657e9fc8f3?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1470&q=80" class="d-block w-100" alt="...">
+                    </div>
+
                 </div>
                 <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleAutoplaying" data-bs-slide="prev">
                 <span class="carousel-control-prev-icon" aria-hidden="true"></span>
@@ -89,51 +113,51 @@
 
         <div class="row">
             <div class="col-md-3">
-                <div class="card center" style="width: 18rem;">
+                <div class="card center" style="width: 15rem;">
 
                     <img src="https://source.unsplash.com/random" class="card-img-top" alt="card img" width="50" height="200">
                     <div class="card-body">
-                        <h5 class="card-title">Descrição com caracteristicas do produto</h5>
-                        <p class="card-text"> R$ 24,99 </p>
-                        <a href="#" class="btn btn-primary">Compra agora</a>
+                        <h5 class="card-title">Brinquedo 1</h5>
+                        <p class="card-text">Descrição</p>
+                        <a href="#" class="btn btn-primary">Acessar</a>
                     </div>
                 </div>
             </div>
 
             <div class="col-md-3">
-                <div class="card center" style="width: 18rem;">
+                <div class="card center" style="width: 15rem;">
                     <img src="https://source.unsplash.com/random" class="card-img-top" alt="card img" width="50" height="200">
 
                     <div class="card-body">
-                        <h5 class="card-title">Descrição com caracteristicas do produto</h5>
-                        <p class="card-text"> R$ 24,99 </p>
-                        <a href="#" class="btn btn-primary">Compra agora</a>
+                        <h5 class="card-title">Brinquedo 2</h5>
+                        <p class="card-text">Descrição</p>
+                        <a href="#" class="btn btn-primary">Acessar</a>
                     </div>
                     
                 </div>
             </div>
 
             <div class="col-md-3">
-                <div class="card center" style="width: 18rem;">
+                <div class="card center" style="width: 15rem;">
                         <img src="https://source.unsplash.com/random" class="card-img-top" alt="card img" width="50" height="200">
                     
                         <div class="card-body">
-                           <h5 class="card-title">Descrição com caracteristicas do produto</h5>
-                           <p class="card-text"> R$ 24,99 </p>
-                           <a href="#" class="btn btn-primary">Compra agora</a>
+                            <h5 class="card-title">Brinquedo 3</h5>
+                            <p class="card-text">Descrição</p>
+                            <a href="#" class="btn btn-primary">Acessar</a>
                         </div>
                     </div>
             
                 </div>
     
                 <div class="col-md-3">
-                    <div class="card center" style="width: 18rem;">
+                    <div class="card center" style="width: 15rem;">
                         <img src="https://source.unsplash.com/random" class="card-img-top" alt="card img" width="50" height="200">
     
                         <div class="card-body">
-                            <h5 class="card-title">Descrição com caracteristicas do produto</h5>
-                            <p class="card-text"> R$ 24,99 </p>
-                            <a href="#" class="btn btn-primary">Compra agora</a>
+                            <h5 class="card-title">Aula 11</h5>
+                            <p class="card-text"> Descrição</p>
+                            <a href="#" class="btn btn-primary">Acessar</a>
                         </div>
     
                     </div>
@@ -148,7 +172,7 @@
 
         <div class="row">
             <div class="col-md-3">
-                <div class="card center" style="width: 18rem;">
+                <div class="card center" style="width: 15rem;">
 
                     <img src="https://source.unsplash.com/random" class="card-img-top" alt="card img" width="50" height="200">
                     <div class="card-body">
@@ -160,7 +184,7 @@
             </div>
 
             <div class="col-md-3">
-                <div class="card center" style="width: 18rem;">
+                <div class="card center" style="width: 15rem;">
                     <img src="https://source.unsplash.com/random" class="card-img-top" alt="card img" width="50" height="200">
 
                     <div class="card-body">
@@ -173,7 +197,7 @@
             </div>
 
             <div class="col-md-3">
-                <div class="card center" style="width: 18rem;">
+                <div class="card center" style="width: 15rem;">
                         <img src="https://source.unsplash.com/random" class="card-img-top" alt="card img" width="50" height="200">
                     
                         <div class="card-body">
@@ -186,7 +210,7 @@
                 </div>
     
                 <div class="col-md-3">
-                    <div class="card center" style="width: 18rem;">
+                    <div class="card center" style="width: 15rem;">
                         <img src="https://source.unsplash.com/random" class="card-img-top" alt="card img" width="50" height="200">
     
                         <div class="card-body">
@@ -210,7 +234,7 @@
         <div class="container d-files justify-content-around">
 
             <p style="text-align:center" class="content float-right"> <a href="#"> Voltar ao topo</a></p>
-            <p style="text-align:center"> Criado por nome, ano . <a href="#"> Privacidade </a> - <a href="#"> Termos </a></p>
+            <p style="text-align:center"> @Anaruthde, 2023 . <a href="#"> Privacidade </a> - <a href="#"> Termos </a></p>
             
         </div>
 
