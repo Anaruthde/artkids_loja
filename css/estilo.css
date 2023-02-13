@@ -1,4 +1,7 @@
-.center {
-    margin: auto;
-    padding: 10px;
+.body {
+    min-width: 372px;
+}
+
+.wrapper {
+    min-height: 100vh;
 }
