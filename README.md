@@ -17,7 +17,7 @@ A ideia deste projeto é construir um site para uma loja virtual, onde todo o pr
 ## Layout
 
 <p align="center">O Design do logo é uma produção autoral, utilizando o Figma como ferramenta de auxílio.
-O layout do Readme é baseado na interface do evento Rocketseat [DESSE LINK](#).
+O layout do Readme é baseado na interface do evento Rocketseat (link)
 </p>
 
 
